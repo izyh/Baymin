@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Baymin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="send">发送</string>
+    <string name="input_hint">亲爱的跟我聊天吧</string>
+    
+    <string-array name="welcome_tips">
+        <item>你好！我是Baymin，你的私人生活助手！</item>
+        <item>好久不见，是不是去拯救世界啦？</item>
+        <item>终于等到你，Baymin好想你呢！</item>
+        <item>世界那么大，我们还是相遇了呢！</item>
+        <item>路途那么遥远，让小白陪你一起走吧！</item>
+        <item>你好！我是大白的妹妹小白，你的私人生活助手！</item>
+    </string-array>
+    
+</resources>

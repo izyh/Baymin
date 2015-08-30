@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:transcriptMode="alwaysScroll">
+    </ListView>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2f2f2"
+        android:padding="8dp"
+        android:gravity="bottom">
+        
+        <Button 
+            android:id="@+id/voice_btn"
+        	android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/voice_btn"/>
+        
+        <EditText 
+            android:id="@+id/sendText"
+        	android:layout_gravity="bottom|center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_input"
+            android:layout_weight="1"
+            android:maxLines="4"
+            android:hint="@string/input_hint" />
+
+        <Button
+            android:id="@+id/send_btn"
+        	android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send_btn"
+            android:text="@string/send" />
+        
+    </LinearLayout>
+
+</LinearLayout>
